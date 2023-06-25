@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<title>Pensiunea Buzăiel</title>
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!-- Styles -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/font-awesome-4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/animate.min.css">
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="stylesheet" href="assets/reservationform/css/main.css">
+<link rel="stylesheet" href="style.css">
+<!--  Js -->
+<script src="assets/js/modernizr.custom.js"></script>
+<script src="assets/js/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav>
+<!-- logo -->
+<div class="logo-box">
+	<a href="index.html" class="logo logo-img">
+	<img src="assets/img/logo.png" alt="logo" width="220" height="220">
+	</a>
+</div>
+<!-- mobile -->
+<button type="button" aria-label="Toggle Navigation" class="menu-button-mobile lines-button x2">
+<span class="lines"></span>
+</button>
+<!-- Menu -->
+<div class="menu-box my-scrollbar">
+	<div id="dl-menu" class="dl-menuwrapper">
+		<ul class="dl-menu dl-menuopen">
+			<li><a href="index.html">Acasa</a></li>
+			<li><a href="about.html">Despre</a></li>
+			<li><a href="rooms.html">Camere	</a></li>
+		
+			<li><a href="contact.html">Contacteaza-ne</a></li>
+			<li class="submenu"><a href="#">pages</a>
+			<ul class="sub-menu">
+			 <li><a href="meniu.html">Meniu</a></li>
+				<li><a href="gallery.html">Galerie</a></li>
+				</li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- End Menu -->
+<footer class="footer">
+<ul class="social-icons">
+	<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+	<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+	<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+	<li><a href="#" target="_blank"><i class="fa fa-yelp"></i></a></li>
+</ul>
+<div class="copyright">
+	 &copy; 2023 <a href="index.html">Pensiunea Buzăiel</a>
+</div>
+</footer>
+</nav>
+<!-- end: NAVIGATION -->
+<!-- PAGE-WRAPPER -->
+<div class="page-wrapper">
+	<section>
+	<div class="col-md-6 nopadding">
+	
+	<style>
+					
+					* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+					
+					<div class = "cerere">
+					<form action="rezervare.php" method="post">
+  <div class="container">
+    <h1>Creeaza o rezervare!</h1>
+    <p></p>
+    <hr>
+	
+      <label for="date_from"><b>From</b></label>
+    <input type="date" placeholder="Introduceti data sosirii" name="date_from" id="date_from" required>
+	
+	<label for="date_to"><b>To</b></label>
+    <input type="date" placeholder="Introduceti data plecarii" name="date_to" id="date_to" required>
+
+ <br>
+ <br>
+    <label for="nume"><b>Nume</b></label>
+    <input type="text" placeholder="Introduceti numele" name="nume" id="nume" required>
+
+    <label for="prenume"><b>Prenume</b></label>
+    <input type="text" placeholder="Introduceti prenumele" name="prenume" id="prenume" required>
+
+    <label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="Introduceti email-ul" name="email" id="email" required>
+	
+	<label for="phone"><b>Numar de telefon</b></label>
+    <input type="text" placeholder="Introduceti numarul de telefon" name="phone" id="phone" required>
+	
+    <hr>
+
+    <button type="submit" class="registerbtn">Inregistreaza rezervarea!</button>
+  </div>
+</form>
+	
+		
+		<!-- form -->
+	</div>
+
+	</section>
+	<!-- FOOTER Section -->
+	<div class="bottomfooter">
+		<div class="col-md-4">
+			 © Pensiunea Buzăiel &2023 </a>
+		</div>
+		<div class="col-md-4">
+			<i class="fa fa-phone"></i> Rezerva acum!<br/>
+			<i class="fa fa-envelope"></i> <a href="mailto:donotsendthisemail@gmail.com">gabibularca@gmail.com</a>
+		</div>
+		<div class="col-md-4">
+			<i class="fa fa-map-marker"></i>
+			Vama Buzaului, Brasov<br/>Pensiunea Buzăiel
+		</div>
+		
+		<div class="clearfix">
+		</div>
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Pensiunea%20Buzaiel&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div></div>
+	</div>
+	
+</div>
+
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/pension.js"></script>
+<script src="assets/reservationform/js/vendor/modernizr-2.6.2.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/reservationform/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="assets/reservationform/js/plugins.js"></script>
+<script src="assets/reservationform/js/main.js"></script>
+</body>
+</html>
